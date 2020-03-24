@@ -1,0 +1,12 @@
+#pragma once
+#include <iostream>
+int practice1_1();
+int practice1_2();
+void practice1_3();
+void practice1_4();
+void practice1_5();
+void practice1_6();
+void practice1_9();
+void practice1_10();
+void practice1_11();
+void practice1_12();
