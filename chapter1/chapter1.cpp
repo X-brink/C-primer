@@ -95,5 +95,29 @@ void practice1_12()
 
 void practice1_16()
 {
-    
+    int currVal = 0;
+    int sum = 0;
+    while (std::cin >> currVal) {
+        sum += currVal;
+    }
+    std::cout << "sum = " << sum << std::endl;
+}
+
+void practice1_17()
+{
+    int currVal = 0, val = 0;
+    if (std::cin >> currVal) {
+        int cnt = 1;
+        while (std::cin >> val) {
+            if (val == currVal) {
+                ++cnt;
+            }
+            else {
+                std::cout << currVal << " occurs " << cnt << " times" << std::endl;
+                currVal = val;
+                cnt = 1;
+            }
+        }
+        std::cout << currVal << " occurs " << cnt << " times" << std::endl;
+    }
 }

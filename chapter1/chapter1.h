@@ -10,3 +10,5 @@ void practice1_9();
 void practice1_10();
 void practice1_11();
 void practice1_12();
+void practice1_16();
+void practice1_17();
